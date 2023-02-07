@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/design-task/static/css/main.06f2309f.css",
+    "main.js": "/design-task/static/js/main.32e6acfd.js",
+    "static/media/author.PNG": "/design-task/static/media/author.2bc25ca6d28f7df7081a.PNG",
+    "static/media/news-post2.jpg": "/design-task/static/media/news-post2.c28f800f62ffa6b7e746.jpg",
+    "static/media/news-post3.jpg": "/design-task/static/media/news-post3.e54d4419ececdb71b4b0.jpg",
+    "static/media/balck-cup.jpg": "/design-task/static/media/balck-cup.0f224a1232b0d66ab861.jpg",
+    "static/media/author2.jpg": "/design-task/static/media/author2.27799fe4e6b76c374c28.jpg",
+    "static/media/news-post4.jpg": "/design-task/static/media/news-post4.206defd8a9bf74153966.jpg",
+    "static/media/testimonial.jpg": "/design-task/static/media/testimonial.c26243efdb1557bc4193.jpg",
+    "static/media/news-post1.jpg": "/design-task/static/media/news-post1.69ac772b2bfd225e1f47.jpg",
+    "index.html": "/design-task/index.html",
+    "main.06f2309f.css.map": "/design-task/static/css/main.06f2309f.css.map",
+    "main.32e6acfd.js.map": "/design-task/static/js/main.32e6acfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06f2309f.css",
+    "static/js/main.32e6acfd.js"
+  ]
+}
