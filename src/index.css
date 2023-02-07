@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON CSS FOR SECTIONS */
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section h2.section-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section h2.section-head:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #e67e22;
+    margin: 20px auto;
+}
+
+#header {
+    background-color: #e67e22;
+    color: white;
+}
+
+.logo {
+
+    font-size: 2rem;
+}
+.logo img{
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    margin-right: 9px;
+}
+
+#menu {
+    list-style: none;
+    text-align: right;
+    margin-top: 11px;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: white;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #d35400;
+}
+
+/* This css for the Banner component */
+#banner {
+    border: 2px solid red;
+    background: url(./img/balck-cup.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title {
+    padding: 2rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 8px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: white;
+    background: rgb(211, 84, 0);
+    display: inline-block;
+    padding: 8px;
+
+
+}
+
+/* STYLE  FOR  Services  COMPONENT */
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa {
+    font-size: 80px;
+    color: rgb(230, 126, 34);
+    margin-bottom: 20px;
+}
+
+/* STYLE FOR Testimonial COMPONENT */
+
+#testimonials {
+    background: url(./img/testimonial.jpg) 0 0 no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    padding: 50px 0;
+}
+
+#testimonials:before {
+    background-color: rgba(52, 73, 94, 0.7);
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#testimonials .container {
+    position: relative;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* STYLE FOR News COMPONENT */
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3 a {
+    color: #e67e22;
+    font-size: 1.35rem;
+    text-decoration: none;
+}
+
+.news-post h3 a:hover {
+    color: #d35400;
+}
+
+.news-post .post-date {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.news-post .post-date:before {
+    content: '\f073';
+    font-family: 'FontAwesome';
+    padding-right: 5px;
+}
+
+.news-post .read-more {
+    color:#e67e22;
+    text-decoration: none;
+
+}
+
+a.read-more {
+    font-size: 15px;
+}
+
+.news-post .read-more:after {
+    content: '\f101';
+    font-family: 'FontAwesome';
+}
+
+/* STYLE FOR FooterSidebar COMPONENT */
+
+.footer-sidebar{
+    background:rgb(52, 73, 94);
+    color:white;
+    padding:20px 0;
+    font-family: sans-serif;
+}
+
+
+.footer-widget h4:after{
+content: "";
+width:50px;
+height:3px;
+background: white;
+display:block;
+left: 20px;
+margin-top:5px;
+
+}
+
+.footer-widget li{
+    list-style: none;
+    margin:2px 0;
+}
+.footer-widget li a{
+    color:white;
+    text-decoration: none;
+    overflow-x:scroll;
+}
+.footer-widget li a:before{
+    content: '\f101';
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+footer{
+    background-color:rgb(37, 48, 58);
+    color:white;
+    padding-top:13px
+}
+
+footer #social-icons {
+    list-style-type:none;
+    float: right;
+}
+
+footer #social-icons li{
+    display: inline-block;
+    padding:0 4px;
+}
+
+footer #social-icons li a{
+    font-size: 20px;
+    color:white;
+    text-decoration:none;
+}
+@media (max-width: 768px ){
+    .logo{
+        text-align: center;
+    }
+    #menu{
+        text-align: center;
+    }
+
+    .service-box{
+        padding:10px 0;
+    }
+
+    .testimonial{
+        text-align: center;
+    }
+
+    .news-post{
+        padding: 10px 0;
+    }
+    .news-post p{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width : 425px){
+
+    .section{
+        padding-top:35px;
+        padding-bottom:35px;
+    }
+    .logo img{
+        width:40px;
+        height:40px;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .service-box{
+        padding-bottom: 20px;
+    }
+
+    .testimonial{
+        padding:15px 0;
+    }
+
+    footer{
+        text-align: center;
+    }
+    footer #social-icons{
+        float:initial;
+        padding-top: 10px;
+    }
+}
